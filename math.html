@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Whitney Fearon">
+    <meta name="keywords" content="math, kids, fun, html,javascript,css,practice">
+    <title>Super Math for kids</title>
+    <link rel="icon" href="images/logo.png" type="image/gif">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/level1.js"></script>
+    <script src="js/level2.js"></script>
+    <script src="js/level3.js"></script>
+    <script src="js/level4.js"></script>
+    <script src="js/level5.js"></script>
+    <script src="js/report.js"></script>
+    <script src="js/report2.js"></script>
+    <script src="js/report3.js"></script>
+    <script src="js/report4.js"></script>
+    <script src="js/report5.js"></script>
+    <script src="js/exitReport.js"></script>
+    <script src="js/ageCalculator.js"></script>
+    <!-- <script src="js/formInfo.js"></script> -->
+</head>
+
+<body class="math">
+    <h1 id="head">SUPER MATH FOR KIDS </h1>
+    <div id="page-wrap">
+        <div id="level1">
+            <input type="button" onclick="addition(); level1Add()" value="addition" id="additionBtn" class="displayBtn">
+            <div id="addition" class="displayDiv">
+                <div id="addDiv"></div>
+                <label>Answer: </label> <br> <br> <input id="answer" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkAdd()">
+                <br>
+                <div id="status"></div>
+            </div>
+            <br><br>
+            <input type="button" onclick="subtraction(); level1Subtract()" value="subtraction" id="subtractionBtn"
+                class="displayBtn">
+            <div id="subtraction" class="displayDiv">
+                <div id="subtract"></div>
+                Level 1:
+                <label>Answer: </label> <br> <br> <input id="subtractAns" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkSubtract()">
+                <br>
+                <div id="subtractStatus"></div>
+            </div>
+            <br><br>
+            <input type="button" onclick="multiplication(); level1Multiply()" value="multiplication" id="multiplicationBtn"
+                class="displayBtn">
+            <div id="multiplication" class="displayDiv">
+                <div id="multiply"></div>
+                Level 1:
+                <label>Answer: </label> <br> <br> <input id="multiplyAns" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkMultiply()">
+                <br>
+                <div id="multiplyStatus"></div>
+            </div>
+            <br><br>
+            <input type="button" onclick="division(); level1Divide()" value="division" id="divisionBtn" class="displayBtn">
+            <div id="division" class="displayDiv">
+                Always put answer to 2 decimal places!
+                <div id="divide"></div>
+                Level 1:
+                <label>Answer: </label> <br> <br> <input id="divideAns" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkDivide()">
+                <br>
+                <div id="divideStatus"></div>
+            </div>
+            <div id="report" class="reportbtn"></div>
+            <br><br>
+        </div>
+        <br>
+        <a href="math.html" class="linkBtn">Return to menu</a>
+        <br><br>
+        <a href="report.html" class="linkBtn">EXIT</a>
+        <br>
+        <div id="level2">
+            <br>
+            <input type="button" onclick="addition2(); level2Add()" value="addition" id="additionBtn2" class="displayBtn">
+            <!-- <input type="button" onclick="addition2(); level2Add()" value="Return to addition level 2" id="level2AddAgain" class="displayDiv"> -->
+            <div id="addition2" class="displayDiv">
+                <div id="add2"></div>
+                Level 2:
+                <label>Answer: </label> <br> <br> <input id="answer2" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkAdd2()">
+                <br>
+                <div id="status2"></div>
+            </div>
+
+
+            <br>
+            <input type="button" onclick="subtraction2(); level2Subtract()" value="subtraction" id="subtractionBtn2"
+                class="displayBtn">
+            <div id="subtraction2" class="displayDiv">
+                <div id="subtract2"></div>
+                Level 2:
+                <label>Answer: </label> <br> <br> <input id="subtractAns2" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkSubtract2()">
+                <br>
+                <div id="subtractStatus2"></div>
+            </div>
+            <br>
+            <input type="button" onclick="multiplication2(); level2Multiply()" value="multiplication" id="multiplicationBtn2"
+                class="displayBtn">
+            <div id="multiplication2" class="displayDiv">
+                <div id="multiply2"></div>
+                Level 2:
+                <label>Answer: </label> <br> <br> <input id="answer2" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkMultiply2()">
+                <br>
+                <div id="multiplyStatus2"></div>
+            </div>
+            <br>
+            <input type="button" onclick="division2(); level2Divide()" value="division" id="divisionBtn2" class="displayBtn">
+            <div id="division2" class="displayDiv">
+                Always put answer to 2 decimal places!
+                <div id="divide2"></div>
+                Level 2:
+                <label>Answer: </label> <br> <br> <input id="divideAns2" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkDivide2()">
+                <br>
+                <div id="divideStatus2"></div>
+            </div>
+            <br>
+            <div id="report2" class="reportbtn"></div>
+            <br>
+        </div>
+        <br>
+        <div id="level3">
+            <input type="button" onclick="addition3(); level3Add()" value="addition" id="additionBtn3" class="displayBtn">
+            <div id="addition3" class="displayDiv">
+                <div id="add3"></div>
+                Level 3:
+                <label>Answer: </label> <br> <br> <input id="answer3" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkAdd3()">
+                <br>
+                <div id="status3"></div>
+            </div>
+            <br>
+            <input type="button" onclick="subtraction3(); level3Subtract()" value="subtraction" id="subtractionBtn3"
+                class="displayBtn">
+            <div id="subtraction3" class="displayDiv">
+                <div id="subtract3"></div>
+                Level 3:
+                <label>Answer: </label> <br> <br> <input id="subtractAns3" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkSubtract3()">
+                <br>
+                <div id="subtractStatus3"></div>
+            </div>
+            <br>
+            <input type="button" onclick="multiplication3(); level3Multiply()" value="multiplication" id="multiplicationBtn3"
+                class="displayBtn">
+            <div id="multiplication3" class="displayDiv">
+                <div id="multiply3"></div>
+                Level 3:
+                <label>Answer: </label> <br> <br> <input id="answer3" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkMultiply3()">
+                <br>
+                <div id="multiplyStatus3"></div>
+            </div>
+            <br>
+            <input type="button" onclick="division3(); level3Divide()" value="division" id="divisionBtn3" class="displayBtn">
+            <div id="division3" class="displayDiv">
+                Always put answer to 2 decimal places!
+                <div id="divide3"></div>
+                Level 3:
+                <label>Answer: </label> <br> <br> <input id="divideAns3" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkDivide3()">
+                <br>
+                <div id="divideStatus3"></div>
+            </div>
+            <br>
+            <div id="report3" class="reportbtn"></div>
+            <br>
+        </div>
+        <br>
+        <div id="level4">
+            <input type="button" onclick="addition4(); level4Add()" value="addition" id="additionBtn4" class="displayBtn">
+            <div id="addition4" class="displayDiv">
+                <div id="add4"></div>
+                Level 4:
+                <label>Answer: </label> <br> <br> <input id="answer4" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkAdd4()">
+                <br>
+                <div id="status4"></div>
+            </div>
+            <br>
+            <input type="button" onclick="subtraction4(); level4Subtract()" value="subtraction" id="subtractionBtn4"
+                class="displayBtn">
+            <div id="subtraction4" class="displayDiv">
+                <div id="subtract4"></div>
+                Level 4:
+                <label>Answer: </label> <br> <br> <input id="subtractAns4" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkSubtract4()">
+                <br>
+                <div id="subtractStatus4"></div>
+            </div>
+            <br>
+            <input type="button" onclick="multiplication4(); level4Multiply()" value="multiplication" id="multiplicationBtn4"
+                class="displayBtn">
+            <div id="multiplication4" class="displayDiv">
+                <div id="multiply4"></div>
+                Level 4:
+                <label>Answer: </label> <br> <br> <input id="answer4" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkMultiply4()">
+                <br>
+                <div id="multiplyStatus4"></div>
+            </div>
+            <br>
+            <input type="button" onclick="division4(); level4Divide()" value="division" id="divisionBtn4" class="displayBtn">
+            <div id="division4" class="displayDiv">
+                Always put answer to 2 decimal places!
+                <div id="divide4"></div>
+                Level 4:
+                <label>Answer: </label> <br> <br> <input id="divideAns4" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkDivide4()">
+                <br>
+                <div id="divideStatus4"></div>
+            </div>
+            <br>
+            <div id="report4" class="reportbtn"></div>
+            <br>
+        </div>
+        <br>
+        <div id="level5">
+            <input type="button" onclick="addition3(); level3Add()" value="addition" id="additionBtn3" class="displayBtn">
+            <div id="addition3" class="displayDiv">
+                <div id="add3"></div>
+                Level 3:
+                <label>Answer: </label> <br> <br> <input id="answer3" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkAdd3()">
+                <br>
+                <div id="status3"></div>
+            </div>
+            <br>
+            <input type="button" onclick="subtraction3(); level3Subtract()" value="subtraction" id="subtractionBtn3"
+                class="displayBtn">
+            <div id="subtraction3" class="displayDiv">
+                <div id="subtract3"></div>
+                Level 3:
+                <label>Answer: </label> <br> <br> <input id="subtractAns3" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkSubtract3()">
+                <br>
+                <div id="subtractStatus3"></div>
+            </div>
+            <br>
+            <input type="button" onclick="multiplication3(); level3Multiply()" value="multiplication" id="multiplicationBtn3"
+                class="displayBtn">
+            <div id="multiplication3" class="displayDiv">
+                <div id="multiply3"></div>
+                Level 3:
+                <label>Answer: </label> <br> <br> <input id="answer3" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkMultiply3()">
+                <br>
+                <div id="multiplyStatus3"></div>
+            </div>
+            <br>
+            <input type="button" onclick="division3(); level3Divide()" value="division" id="divisionBtn3" class="displayBtn">
+            <div id="division3" class="displayDiv">
+                Always put answer to 2 decimal places!
+                <div id="divide3"></div>
+                Level 3:
+                <label>Answer: </label> <br> <br> <input id="divideAns3" type="txt" size="4" class="linkBtn"> <br>
+                <br>
+                <input type="button" value="Check" id="btn" onclick="checkDivide3()">
+                <br>
+                <div id="divideStatus3"></div>
+            </div>
+            <br>
+            <div id="report3" class="reportbtn"></div>
+            <br>
+        </div>
+    </div>
+    <h1 id="footer">COPYRIGHT &copy; 2018</h1>
+
+</body>
+
+</html>

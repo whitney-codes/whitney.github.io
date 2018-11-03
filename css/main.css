@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Walter+Turncoat);
+
+html {
+  font-family: "Walter Turncoat";
+  font-size: 25px;
+  display: inline-block;
+  background-color: #555;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  color: #e8e8e8;
+  /* overflow: hidden; */
+}
+
+#head{
+  font-size: 30px;
+}
+
+#footer{
+
+  font-size: 20px;
+}
+
+/* h5{
+  color:#9b1010;
+} */
+
+#page-wrap{
+  width: 80%;
+  height: 450px;
+  min-height: auto;
+  margin: 30px auto 0 auto;
+  background-color: #497959;
+  padding: 10px 30px;
+  overflow-y: scroll;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: #b78240 solid 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+#span {
+  padding-right: 50px;
+}
+
+h1,
+p {
+  text-align: center;
+}
+#agebtn {
+  width: 20%;
+}
+#btn {
+  width: 50%;
+}
+
+#submit,
+.style {
+  width: 25%;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: "Walter Turncoat";
+}
+#submit:hover {
+  outline: none;
+}
+
+.math {
+  text-align: center;
+}
+
+.displayBtn,
+#level1 {
+  display: inline-block;
+}
+h4{
+  text-align:right;
+}
+
+.displayDiv,
+.reportbtn,
+#hideBtn,
+#hideBtn2,
+#additionBtn2,
+#subtractionBtn2,
+#multiplicationBtn2,
+#divisionBtn2,
+#hideBtn3,
+#additionBtn3,
+#subtractionBtn3,
+#multiplicationBtn3,
+#divisionBtn3,
+#hideBtn4,
+#additionBtn4,
+#subtractionBtn4,
+#multiplicationBtn4,
+#divisionBtn4,
+#hideBtn5,
+#additionBtn5,
+#subtractionBtn5,
+#multiplicationBtn5,
+#divisionBtn5 {
+  display: none;
+}
+
+.displayBtn,
+#btn {
+  font-size: 30px;
+  border-radius: 10px;
+  font-family: "Walter Turncoat";
+}
+
+.linkBtn {
+  font-size: 30px;
+  text-decoration: none;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #333333;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #333333;
+  border-radius: 10px;
+  background-color: #f4f4f4d0;
+  color: #000000;
+  font-family: "Walter Turncoat";
+}
+.a {
+  padding-left: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: "Walter Turncoat";
+}
